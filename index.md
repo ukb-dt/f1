@@ -1,3 +1,22 @@
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML. No _config.yml needed. -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endraw %}
+
+
+
 # Wheels of Fortune: Actuarial Techniques in F1 Racing
 
 *July/August 2025*
@@ -230,4 +249,106 @@ It’s where actuarial science stops being just *failure clocks* and becomes **c
 
 ⚡ So if Hamilton vs Norris was a **worthy adversarial duel**, then governments are the *race directors, regulators, and stewards* — sometimes incompetent, sometimes overbearing, sometimes the only ones holding the game together at all.
 
- 
+### D
+
+## 🌳 Botanical Pentad Mapping
+
+* **Entropy (θ′) = Aperiodicity / Bequest–Existential**
+  The scatter of variance, the night sky of possibility, the inherited chaos we begin from.
+
+* **Grounding (θ) = Tactical**
+  Roots in the soil; tactical adjustments that draw from the ground’s fertility. The household (Tree) scale.
+
+* **Trunk (Σ) = Firmness / Habit / Ritual**
+  Compression into a channel: ritualized actions, actuarial tables, enterprise routines. The Forest’s interlocking strength.
+
+* **Branching (h(t)) = Strategy**
+  Lateral exploration: pit-stop decisions, firm growth, alliances. What grows out of the trunk’s compression.
+
+* **Ledger (ΔS) = Operational**
+  Fruit, flowers, outcomes that can be harvested, sold, counted. The operational record that feeds back to soil.
+
+---
+
+## 🪵 Canon Ladder in One Stroke
+
+* **Tree (Household / Petty Adversary) → Roots / Grounding (Tactics).**
+* **Forest (Enterprise / Worthy Adversary) → Trunk (Habit, Ritual, Compression).**
+* **Ground (Sovereign / Sovereign Adversary) → Soil Ledger (Operational Covenant).**
+
+---
+
+So your compressed canon reads:
+
+**Entropy (Aperiodicity) → Tactics (Grounding) → Habit (Trunk) → Strategy (Branching) → Operations (Ledger).**
+
+
+### E
+
+A tidy mapping of $(y, x, \tfrac{dy}{dx}, \tfrac{d^2y}{dx^2}, \int y(x)\,dx)$ onto the GOALS/GOLAS canon, with an F1 (Sochi 2021) worked example.
+
+---
+
+#### Canon calculus (tidy, reusable)
+
+| Calculus object       | Canon meaning                                                             | Operator (GOALS/GOLAS)                                             | Actuarial/F1 read                                       |
+| --------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------- |
+| $x$                   | exposure axis (entropy/time/regime index)                                 | **A**cross: choose the domain & features for $x$                   | laps remaining, rain intensity, track temp, tyre age    |
+| $y(x)$                | compressed signal / value function (what you optimize)                    | **G/O**: pick & apply the modelling operator to produce $y$        | expected lap-time delta vs best strategy; expected loss |
+| $\tfrac{dy}{dx}$      | noise→signal **gradient** (your universal diagnostic)                     | **L**adder trigger: tactic flips when gradient crosses a threshold | “loss accelerating with rain” → pit now                 |
+| $\tfrac{d^2y}{dx^2}$  | **curvature of compression** (pruning pressure / combinatorial emergence) | **S**ilos & Σ: curvature reveals model fragility or regime shift   | convexity up: losses explode if you don’t switch tyres  |
+| $\int y(x)\,dx$       | **ledger** (area under value/loss curve)                                  | **ΔS** outcome: choose the policy minimizing the integral          | total time lost to finish; championship points delta    |
+
+---
+
+### Minimal mnemonics
+- $x$ = **exposure**  
+- $y$ = **signal/value**  
+- $y'$ = **gradient (noise→signal)**  
+- $y''$ = **curvature (pruning/variance of compression)**  
+- $\int y$ = **ledger**
+
+---
+
+### Where your model classes sit
+- **Nonparametric (KM)** → estimates $y(x)$ directly from history; monitors $y'$ empirically.  
+- **Parametric (Weibull, etc.)** → imposes shape on $(y, y', y'')$ (you choose the curvature).  
+- **Simulation (MC)** → samples whole **areas** $\int y(x)\,dx$ across stochastic paths (a distribution over ledgers).  
+- **Semi-parametric (Cox)** → the Faustian pact: interpretable $y'$ (hazard ratios) while hiding baseline $y$ shape.  
+
+---
+
+### Snap application — Sochi 2021 (Hamilton vs Norris)
+
+Set the axes:  
+- $x =$ minutes (or laps) remaining × rainfall intensity index.  
+- $y(x) =$ **expected lap-time loss** on current tyres relative to switching to inters *now*.  
+
+Read the gradients:  
+- As rain band moves in, $y'(x) > 0$ grows → **loss accelerating** on slicks.  
+- Curvature flips up: $y''(x) \gg 0$ → **convex losses** (each minute costs more than the last).  
+
+Act:  
+- **Hamilton/Mercedes:** threshold rule on gradient/curvature → pit when $y'$ crosses $\alpha$ or when $y''$ spikes.  
+- **Norris/McLaren:** held a local extrapolation (treated $y'' \approx 0$); missed the convex turn.  
+
+Choose by ledger:  
+- Compare $\int y_{\text{stay}}(x)\,dx$ vs $\int y_{\text{pit}}(x)\,dx$ to the flag.  
+- Intermediates made the **area** (total loss) smaller → Hamilton wins, Norris slides to P7.  
+
+---
+
+### h / f / g (Tree / Forest / Ground) as boundary conditions
+- **h (retail, Tree):** objective = household ledger; tight constraints on $\int y$.  
+- **f (enterprise, Forest):** duel of operators; $(y'', y')$ watched like a hawk; choose curvature wisely.  
+- **g (sovereign, Ground):** sets the **domain of $x$** (rules, budgets, safety car protocols, parc fermé) and the loss function that the ledger integrates.  
+
+---
+
+### Ultra-compressed playbook
+1. **Define $x$** (exposure).  
+2. **Model $y$** (value/loss).  
+3. **Watch $y'$** (gradient) for tactic flips.  
+4. **Respect $y''$** (curvature) — convexity kills.  
+5. **Decide by $\int y$** (ledger), not vibes.  
+
