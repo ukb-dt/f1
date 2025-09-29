@@ -7,10 +7,6 @@
 *Ritesh Gupta*  
 *Friday 4th July 2025 — 5 min read*
 
-- Whatsapp
-- Twitter
-- Facebook
-- Linked in
 
 ![F1 Grand Prix, Miami](risk/actuary.jpg)  
 *Image credit | Getty*
@@ -88,64 +84,15 @@ If you are training to be an actuary and would like to write an article for this
 This article appeared in the July/August 2025 issue of *The Actuary*.  
 [Click here](https://www.theactuary.com/issues/2025/07/julyaugust-2025) to view this issue
 
-- Whatsapp
-- Twitter
-- Facebook
-- Linked in
 
-### Also filed in
 
-- Student
-- General Features
-- Data Science
-- Risk
-- General Insurance
-
-### You may also be interested in...
-
-- [Big question: Are we really living in ‘uncertain times’?](https://www.theactuary.com/2025/07/04/big-question-are-we-really-living-uncertain-times)
-- [Growing need: Inclusive solutions for the insurance gap](https://www.theactuary.com/2025/07/04/growing-need-inclusive-solutions-insurance-gap) *Special report: insurance gap*
-- [Snapshot: The nat cat insurance gap](https://www.theactuary.com/2025/07/04/snapshot-nat-cat-insurance-gap-0)
-- [Check your AI: a framework for its use in actuarial practice](https://www.theactuary.com/features/2025/06/25/check-your-ai-framework-its-use-actuarial-practice)
-- [Here to stay: What – and why – actuaries need to know about biohacking](https://www.theactuary.com/2025/07/04/here-stay-what-and-why-actuaries-need-know-about-biohacking)
-
-### Subscribe now
-
-**Direct to you**  
-**The next issue**  
-Receive the print edition straight to your door  
-[Subscribe](https://www.theactuary.com/subscribe)  
-For more information, please follow this link.
-
-**E-newsletters**  
-**Straight into your inbox**  
-News, jobs and updates  
-[Subscribe now](https://e-news.theactuary.com/k/Redactive/actuary_enews)  
-For more information, please follow this link.
-
-[Subscribe to RSS feed](https://www.theactuary.com/rss.xml)
-
-- [Advertise with us](https://www.theactuary.com/advertise-with-us)
-- [Contact Us](https://www.theactuary.com/contact-us)
-- [Contribute](https://www.theactuary.com/contribute)
-- [Jobs](https://www.theactuaryjobs.com/searchjobs/?countrycode=GB)
-- [Facebook](https://www.facebook.com/TheActuaryMagazine/)
-- [Linkedin](https://www.linkedin.com/groups/3751335/)
-- [X (Twitter)](https://twitter.com/TheActuaryMag)
-- [Cookies](https://www.theactuary.com/cookie-policy)
-- [Privacy policy](https://www.theactuary.com/privacy-policy)
-- [Terms & Conditions](https://www.theactuary.com/terms-conditions)
-- [RSS feed](https://www.features-dd-1791-2024-x6px3hi-f3sdcnxa2dy3g.eu-4.platformsh.site/rss.xml)
 
 © 2025 The Actuary.
 
 ## Notes
 ### A
-Perfect — let’s tackle both of your instincts here:
 
----
-
-## 🏎️ Hamilton’s Win at Sochi (2021 Russian GP) Through **GOALS / GOLAS**
+#### 🏎️ Hamilton’s Win at Sochi (2021 Russian GP) Through **GOALS / GOLAS**
 
 Quick recall: Norris (leading) stayed out on slicks as rain fell. Hamilton pitted for intermediates. Within a handful of laps, Norris slid down to 7th, Hamilton took the win — his 100th.
 
@@ -197,7 +144,7 @@ Clearly a **Faustian bargain**.
 
 ---
 
-## ✂️ Witty Compression
+#### ✂️ Witty Compression
 
 So, a briefer, punchier taxonomy of actuarial tools in F1:
 
