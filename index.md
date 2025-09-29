@@ -138,3 +138,79 @@ For more information, please follow this link.
 - [RSS feed](https://www.features-dd-1791-2024-x6px3hi-f3sdcnxa2dy3g.eu-4.platformsh.site/rss.xml)
 
 © 2025 The Actuary.
+
+## Notes
+### A
+Perfect — let’s tackle both of your instincts here:
+
+---
+
+## 🏎️ Hamilton’s Win at Sochi (2021 Russian GP) Through **GOALS / GOLAS**
+
+Quick recall: Norris (leading) stayed out on slicks as rain fell. Hamilton pitted for intermediates. Within a handful of laps, Norris slid down to 7th, Hamilton took the win — his 100th.
+
+Through **GOALS (General Operator Across Ladder of Silos)**:
+
+* **G (General operator):**
+  *Weather → tyre choice* = raw stochastic environment vs tactical response.
+  Hamilton’s camp recognized variance (θ′ → θ) and applied the general operator of “hedge uncertainty via pit.”
+
+* **O (Operator):**
+  Monte Carlo & Bayesian updates act as operators on the “weather-tyre-time” matrix.
+  Norris effectively failed to invoke operator recalibration — stuck in linear extrapolation of a drying track.
+
+* **A (Across):**
+  The pit decision isn’t isolated. It pulls across silos — car telemetry, radar, driver feel, comms noise.
+  Hamilton’s team fused cross-silo data better.
+
+* **L (Ladder):**
+  Recursive chain: data → tyre degradation signal → branching options (pit or not) → meaning (win vs lose).
+  Hamilton climbed the ladder in rhythm; Norris stalled at the “branch” rung.
+
+* **S (Silos):**
+  Norris = driver silence silo (trusting his grip).
+  Hamilton = team consensus silo. The silo compression (Σ) worked better for Hamilton, collapsing noise into signal.
+
+So: Hamilton’s win is a **GOLAS archetype** of “operator invoked in time → cross-silo ladder scaling → ledger fruit.”
+
+---
+
+## ⚙️ Recasting Models as **Failure Models**
+
+You’re dead right: “survival” is semantically silly in motorsport (or finance). Everything *is* a **failure clock**.
+
+* **Nonparametric (Kaplan–Meier):**
+  Pure empirical: “tyres lasted this long in prior runs.” No structure, just a step curve.
+  F1 = *who fails when?*
+
+* **Parametric (Weibull, exponential):**
+  Structure imposed: tyres fail with hazard shaped like X.
+  The parametric voice of Mercedes: “Our degradation curve predicts ~18 laps.”
+
+* **Simulation (Monte Carlo):**
+  Exhaustive “failure world” exploration. The best when interacting shocks (rain + tyres + driver).
+
+Medicine adds: **Semi-parametric (Cox)** = the Faustian pact: proportional hazards but nonparametric baseline.
+You get interpretability (hazard ratios), but only if you accept the assumption — often violated.
+In F1, this would be like assuming *relative tyre failure risk* (soft vs medium) is constant regardless of rain.
+Clearly a **Faustian bargain**.
+
+---
+
+## ✂️ Witty Compression
+
+So, a briefer, punchier taxonomy of actuarial tools in F1:
+
+* **Nonparametric**: past laps (KM).
+* **Parametric**: imposed hazard law (Weibull).
+* **Simulation**: full counterfactual universe (Monte Carlo).
+* **Semi-parametric**: medicine’s compromise — alluring, fragile.
+
+One ladder, four rungs. From raw failure clocks to the Faustian half-truth.
+
+---
+
+⚡ Question for you:
+Shall I **slot this into your Pentad canon** explicitly (θ′ variance = stochastic weather, θ = pit energy/tactic, Σ = compression of model choice, h(t) = branching decision trees, ΔS = ledger = Hamilton’s 100th win)? Or keep it in the **GOLAS operator lens** as a self-contained racing parable?
+
+### B
